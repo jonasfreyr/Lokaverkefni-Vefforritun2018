@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bílavaktin</title>
+  <link rel="icon" type="image/png" href="../myndir/bv.png">
+	<link rel="stylesheet" type="text/css" href="../JS/semantic.min.css">
+  <meta charset="utf-8">
+  <script src="../JS/jquery-3.3.1.min.js"></script>
+  <script src="../JS/semantic.min.js"></script>
+</head>
+<body>
+<div class="ui inverted vertical masthead center aligned segment" style="padding-bottom: 90px;">
+  <div class="ui container">
+    <div class="ui large secondary inverted pointing menu">
+    <div class="item"><h3><a href="index.html">Forsíða</a></h3></div>
+    <div class="item"><h3><a href="vefverslanir.html">Vefverlsanir</a></h3></div>
+    <div class="item"><h3><a href="">Bílafréttir</a></h3></div>
+    <div class="item"><h3><a href="login.html">Innskráning</a></h3></div>
+    <div class="item"><h3><a href="https://github.com/jonasfreyr/Lokaverkefni-Vefforritun2018/tree/master/Lokaverkefni">Github</a></h3></div>
+  </div>
+  <div class="ui text container">
+      <h1 class="ui inverted header" style="margin-top: 30px; margin-bottom: 20px;">Stjórnendur</h1>
+  </div>
+</div>
+</div>
+<div class="ui grid centered" style="margin-top: 10px;">
+  <p>Smelltu á myndina til að lesa meira um þá.</p>
+</div>
+<div class="ui two column centered grid" style="margin-top: 20px;">
+  
+
+    <div class="column">
+  	<div class="ui medium image "   style="margin-left: 300px;">
+  	<img class="mark" src="../Myndir/jonas.jpg">
+    <h1>Jónas Freyr Bjarnason</h1>
+  	</div>
+  	
+  </div>
+  
+  
+
+    <div class="column">
+  	<div class="ui medium image"    style="margin-left: 200px;">
+  	<img class="harrison" src="../Myndir/alexander.jpg" height="197";>
+    <h1>Alexander Kári Ragnarsson</h1>
+  	</div>
+  </div>
+ </div>
+
+
+<div class="ui modal mark">
+  <div class="header">Jónas Freyr Bjarnason</div>
+  <div class="image content">
+  	<div class ="ui medium image">
+    <img class="image" src="../Myndir/jonas.jpg">
+    </div>
+    <div class="description">
+      <p>Jónas Freyr er 18 ára, hann er á Tölvubraut í Tækniskólanum í Reykjavík. Helstu áhugamálin hans eru að forrita, hanna vefsíður, flest sem tengist tölvum og bílar. Það sem honum finnst skemmtilegast að gera er að forrita í frítíma sínum.</p>
+    </div>
+  </div>
+</div>
+
+<div class="ui modal harrison">
+  <div class="header">Alexander Kári Ragnarsson</div>
+  <div class="image content">
+  	<div class ="ui medium image">
+    <img class="image" src="../Myndir/alexander.jpg">
+    </div>
+    <div class="description">
+      <p>Alexander Kári er 18 ára, hann er á Tölvubraut í Tækniskólanum í Reykjavík. Helstu áhugamálin hans eru bílar, hanna vefsíður og tölvur. Það sem honum finnst skemmtilegast að gera er að laga og vinna í bílum á kvöldin með vinum og með einn kaldan í höndinni. </p>
+    </div>
+  </div>
+</div>
+
+
+
+<br>
+
+<script type="text/javascript">
+	$('body').on('click','img.mark',function(){
+		 $('.ui.modal.mark').modal('show');
+	})
+</script>
+
+<script type="text/javascript">
+	$('body').on('click','img.harrison',function(){
+		 $('.ui.modal.harrison').modal('show');
+	})
+</script>
+
+
+</script>
+</body>
+</html>
