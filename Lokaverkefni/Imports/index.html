@@ -2,6 +2,12 @@
 <html>
 <head>
 	<title>Bílavaktin</title>
+  <link rel="icon" type="image/png" href="../static/myndir/bv.png">
+  <link rel="stylesheet" type="text/css" href="../static/semantic.min.css">
+  <meta charset="utf-8">
+  <script src="../static/jquery-3.3.1.min.js"></script>
+  <script src="../static/semantic.min.js"></script>
+
 	<link rel="icon" type="image/png" href="{{ url_for('static', filename='Myndir/bv.png') }}">
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='semantic.min.css') }}">
 	<meta charset="utf-8">
@@ -10,7 +16,8 @@
 </head>
 <body class="">
 	<div class="ui grid centered">
-	<img src="{{ url_for('static', filename='Myndir/bv3.svg') }}" height="560"; width="950";>
+	<!--<img src="{{ url_for('static', filename='Myndir/bv3.svg') }}" height="560"; width="950";>-->
+  <img src="../static/myndir/bv3.svg" height="560"; width="950";>
 	</div>
 	<div class="ui grid centered">
 	
@@ -18,7 +25,7 @@
 	<div class="ui grid centered" style="margin-bottom: 50px;">
   		<div class="ui inverted blue basic button"><a href="stjorn.html">Stjórnendur</a></div>
   		<div class="ui inverted blue basic button"><a href="vefverslanir.html">Vefverslanir</a></div>
-  		<div class="ui inverted blue basic button"><a href="">Bílafréttir</a></div>
+  		<div class="ui inverted blue basic button"><a href="blog.html">Bílafréttir</a></div>
   		<div class="ui inverted blue basic button"><a href="login.html">Innskráning</a></div>
   		<div class="ui inverted blue basic button"><a href="https://github.com/jonasfreyr/Lokaverkefni-Vefforritun2018/tree/master/Lokaverkefni">Github</a></div>
 	</div>
