@@ -57,12 +57,9 @@
               rules: [
                 {
                   type   : 'empty',
-                  prompt : 'Please enter your e-mail'
+                  prompt : 'Please enter your username'
                 },
-                {
-                  type   : 'email',
-                  prompt : 'Please enter a valid e-mail'
-                }
+
               ]
             },
             password: {
@@ -90,17 +87,17 @@
 <div class="ui middle aligned center aligned grid">
   <div class="column">
     <h2 class="ui black image header">
-      <img src="../myndir/bv3.svg" class="image">
+      <img src="{{ url_for('static',filename='Myndir/bv3.svg') }}" class="image">
       <div class="content">
         Innskráning
       </div>
     </h2>
-    <form class="ui large form">
+    <form class="ui large form" action="/logon" method = "post">
       <div class="ui stacked segment">
         <div class="field">
           <div class="ui left icon input">
             <i class="user icon"></i>
-            <input type="text" name="email" placeholder="E-mail address">
+            <input type="text" name="email" placeholder="Username">
           </div>
         </div>
         <div class="field">
