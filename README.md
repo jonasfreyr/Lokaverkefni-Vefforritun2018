@@ -1,7 +1,7 @@
 # Lokaverkefni-Vefforritun2018
 Lokaverkefnið okkar er bílasíða þar sem þú getur fylgst með bílafréttum og viðburðum, Einnig væri hægt að skrifa comment við fréttir og lesið hvað aðrir skrifa. Inná bílavaktin getur þú farið inná vefverslanir sem eru linkaðar inná síðunni og séð hverjir stjórna síðunni.
 
-Linkur að vefsíðu - https://206.189.126.253/
+Linkur að vefsíðu - http://206.189.126.226/
 
 Linkur að wiki - https://github.com/jonasfreyr/Lokaverkefni-Vefforritun2018/wiki
 
