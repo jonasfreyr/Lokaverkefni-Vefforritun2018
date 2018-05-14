@@ -1,5 +1,5 @@
 from flask import *
-
+a = "api"
 app = Flask(__name__) # create the application instance :)
 app.config.from_object(__name__) # load config from this file
 
@@ -55,5 +55,5 @@ def newuser():
 
     conn.close()
 
-
-app.run(debug = True)
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
