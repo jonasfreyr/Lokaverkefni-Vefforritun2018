@@ -24,7 +24,7 @@ def login():
 def blog():
     return render_template('blog.html')
 
-@app.route('/nyskraning')
+@app.route('/new')
 def new():
     return render_template('nyskraning.html')
 
